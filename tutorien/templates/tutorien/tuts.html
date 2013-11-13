@@ -1,0 +1,93 @@
+{% extends "tutorien/base.html" %}
+
+{% block content %}
+<div id="tutcontent" class="container_12">
+	<div id="wrapper-tutorien" class="grid_6 suffix_6">
+		<p class="page-paragraph">Hier kannst Du Dich für die Tutorien im SS13 anmelden. Die Tutorien sind über die Studiengebühren finanziert, sollte also in der Detailbeschreibung des Tutoriums nichts anderweitiges stehen, fallen für Dich beim Besuch eines Tutoriums keine weiteren Kosten an. Eine Pfandhinterlegung bei der SVG wie es bisher üblich war ist ab sofort nicht mehr nötig.</p>
+		<p class="page-paragraph last-p">Wenn wir uns entschließen ein Tutorium stattfinden zu lassen, werden alle Interessenten per Email benachrichtigt. Die Anmeldung für ein Tutorium wird frühestens 2 Wochen vor dem Tutorium freigeschaltet. Damit möchten wir verhindern, dass am Anfang des Semesters alle Plätze blockiert werden. Entscheidend für die Reihenfolge der Teilnehmerliste ist allein die Anmeldung, nicht die Vormerkung als Interessent.</p>
+	</div>
+	{% if status %}
+	<div class="status-div grid_12 {{ statuscls }}">
+		<p class="status-p">{{ status }}</p>
+	</div>
+	{% endif %}
+</div>
+{% for t in tutorien %}
+<div class="tutorium-div container_12 tut-{{t.id}}">
+	<div class="left-side grid_7">
+		<h2 class="tut-title">{{ t.name }}</h2>
+		<div class="tut-description-short">{{ t.description|slice:":380" }}{% if t.description|length > 300 %}...{% endif %}</div>
+		<div class="tut-extended">
+			{% if t.description %}
+			<div class="label">Beschreibung</div>
+			<div class="tut-description text">{{ t.description }}</div>
+			{% endif %}
+			{% if t.requirements %}
+			<div class="label">Voraussetzungen</div>
+			<div class="tut-requirements text">{{ t.requirements }}</div>
+			{% endif %}
+			{% if t.notes %}
+			<div class="label">Besonderheiten</div>
+			<div class="tut-notes text">{{ t.notes }}</div>
+			{% endif %}
+			<div class="tut-tutor"><span class="bold">Tutor:</span> {{ t.tutor }}</div>
+		</div>
+		{% if user.is_authenticated %}
+			{% if t.id in attendances %}
+				<a href="/Tutorien/?id={{ t.id }}&a=rem" class="button button-gray">abmelden</a>
+			{% else %}
+				<a href="/Tutorien/?id={{ t.id }}&a=reg" class="button button-blue">anmelden</a>
+			{% endif %}
+			{% if t in teaching %}
+				<a href="javascript:" class="button-blue button alle-teilnehmer">Teilnehmer</a>
+				<div class="all-users">
+					<ul class="all-users-ul">
+					{% for a in attendants %}
+						{% if a.tut.id == t.id %}
+							<li class="user">{{ a.user }}</li>
+						{% endif %}
+					{% endfor %}
+					<li class="user"><a href="javascript:" class="close">schließen</a></li>
+					</ul>
+				</div>
+			{% endif %}
+		{% else %}
+			<p>Zum Anmelden bitte einloggen.</p>
+		{% endif %}
+		<div class="grid_12 arrow-div"><a href="#{{t.id}}" class="arrow-a"><div class="arrow-down"></div></a></div>
+
+	</div>
+	<div class="right-side grid_5">
+		<div class="tutdates">
+		{% for d in t.tutdate_set.all %}
+		<div class="date-div">
+			<div class="date-day">
+				<div class="vertical">
+					<p class="date-number">{{ d.date|date:"j" }}</p>
+					<p class="date-month">{{ d.date|date:"F" }}</p>
+				</div>
+			</div>
+			<div class="date-time">
+				<div class="vertical">
+					<p class="date-starttime">{{ d.date|date:"G:i" }}</p>
+					<p class="date-duration">
+						{% if d.duration > 1%}
+						{{ d.duration }} Stunden</p>
+						{% else %}
+						{{ d.duration }} Stunde</p>
+						{% endif %}
+				</div>
+			</div>
+			<div class="date-room">
+				<div class="vertical">
+					<p class="date-roomlabel">Raum</p>
+					<p class="date-roomnumber">{{ d.room }}<p>				
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,18 @@
+{% extends "tutorien/base.html" %}
+
+{% block content %}
+{% load static %}
+<div id="content" class="container_12">
+	<div class="grid_8 create-tut-form-div">
+		<h3>{{status}}</h3>
+		<form action="" method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		{{ formset.as_p }}
+		<input title='Datum hinzufügen' type='submit' name='add_tutDate' value='Datum hinzufügen' />
+		<input type="submit" name="submit" value="Tutorium erstellen">
+		</form>
+	</div>
+</div>
+
+{% endblock content %}

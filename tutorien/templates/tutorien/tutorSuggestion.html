@@ -1,0 +1,18 @@
+{% extends "tutorien/base.html" %}
+
+{% block content %}
+<div id="content" class="container_12">
+	{% if status %}
+	<div class="grid_12">
+		<h3>{{ status }}</h3>
+	</div>
+	{% endif %}
+	<div id="tutor-suggestion-div" class="grid_12">
+		<form action="" method="POST">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<input type="submit" value="bewerben">
+		</form>
+	</div>
+</div>
+{% endblock content %}

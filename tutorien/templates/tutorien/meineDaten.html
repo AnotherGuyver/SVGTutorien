@@ -1,0 +1,29 @@
+{% extends "tutorien/base.html" %}
+{% block content %}
+<div id="mydata-content" class="container_12 data-div">
+	<div class="grid_12">
+		<table id="my-data-table" width="100%" border="0" cellspacing="0" cellpadding="0">	
+			<tr>
+				<td>RZ-Kennung</td>
+				<td class="bold">{{user.username}}</td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td class="bold">{{ user.first_name }} {{ user.last_name }}</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td class="bold">{{ user.email }}</td>
+			</tr>
+			<tr>
+				<td>Fakultät</td>
+				<td class="bold">{{ user.faculty }}</td>
+			</tr>
+			<tr>
+				<td>Studiengang</td>
+				<td class="bold">{{ user.field_of_study }}</td>
+			</tr>
+		</table>
+	</div>
+</div>
+{% endblock content %}

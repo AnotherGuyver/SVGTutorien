@@ -1,0 +1,995 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"templ",
+				"template_name"
+			],
+			[
+				"render",
+				"render_to_response"
+			],
+			[
+				"Tutor",
+				"TutorSuggestionForm"
+			],
+			[
+				"req",
+				"login_required"
+			],
+			[
+				"AUT",
+				"AUTH_USER_MODEL"
+			],
+			[
+				"cur",
+				"current_user"
+			],
+			[
+				"curre",
+				"current_tut"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"reg",
+				"reg_user"
+			],
+			[
+				"max",
+				"max_users"
+			],
+			[
+				"Create",
+				"CreateTutForm"
+			],
+			[
+				"ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"context",
+				"context_instance"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Context",
+				"RequestContext"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"Pass",
+				"PasswordInput"
+			],
+			[
+				"contet",
+				"context_instance"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"backg",
+				"background-attachment"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"tet",
+				"textureMax"
+			],
+			[
+				"text",
+				"textureMin"
+			],
+			[
+				"textr",
+				"textureCoordinate"
+			],
+			[
+				"te",
+				"textureMin"
+			],
+			[
+				"tetu",
+				"textureCoordinate"
+			],
+			[
+				"rot",
+				"rotatePosY"
+			],
+			[
+				"rotat",
+				"rotatePosX"
+			],
+			[
+				"rota",
+				"rotatePosX"
+			],
+			[
+				"g_",
+				"g_rotateInterval"
+			],
+			[
+				"button",
+				"buttonPressed"
+			],
+			[
+				"mou",
+				"mouseEvent"
+			],
+			[
+				"anim",
+				"animationAngle"
+			],
+			[
+				"checkb",
+				"checkbox-905"
+			],
+			[
+				"a",
+				"alle-artikel"
+			],
+			[
+				"gallery",
+				"gallery_style"
+			],
+			[
+				"notice",
+				"notice-content"
+			],
+			[
+				"ec3",
+				"ec3_Popup"
+			],
+			[
+				"wp",
+				"wp-content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"dispa",
+				"dispatchDataLoadedEvent"
+			],
+			[
+				"dis",
+				"dispatchDataLoadedEvent"
+			],
+			[
+				"v_a",
+				"v_albumView"
+			],
+			[
+				"v_al",
+				"v_albumView"
+			],
+			[
+				"v_albm",
+				"v_albumView"
+			],
+			[
+				"DATA",
+				"DATA_INITIALIZED"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"album",
+				"albumData"
+			],
+			[
+				"v_",
+				"v_data"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"v",
+				"vclsd"
+			],
+			[
+				"v_alb",
+				"v_albumLogic"
+			],
+			[
+				"albumD",
+				"albumData"
+			],
+			[
+				"v_albu",
+				"v_albumController"
+			],
+			[
+				"inner",
+				"inner_shadow_active"
+			],
+			[
+				"inner_Glow",
+				"inner_glow_opacity"
+			],
+			[
+				"inner_glow_op",
+				"inner_glow_opacity"
+			],
+			[
+				"inner_glow",
+				"inner_glow_active"
+			],
+			[
+				"inner_shadow_a",
+				"inner_shadow_active"
+			],
+			[
+				"inner_sha",
+				"inner_shadow_g"
+			],
+			[
+				"inner_sh",
+				"inner_shadow_angle"
+			],
+			[
+				"inner_shadow_o",
+				"inner_shadow_opacity"
+			],
+			[
+				"inner_shdow_b",
+				"inner_shadow_blur"
+			],
+			[
+				"inner_",
+				"inner_shadow_angle"
+			],
+			[
+				"inn",
+				"inner_shadow_active"
+			],
+			[
+				"create",
+				"createInnerShadowStyles"
+			],
+			[
+				"p_",
+				"p_selector"
+			],
+			[
+				"stroke",
+				"stroke_opt"
+			],
+			[
+				"set",
+				"setFinalStyles"
+			],
+			[
+				"strok",
+				"stroke_opt"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tutorien/views.py",
+			"settings":
+			{
+				"buffer_size": 11447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tutorien/tests.py",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tutorien/models.py",
+			"settings":
+			{
+				"buffer_size": 1747,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 7771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tutorien/templates/tutorien/tuts.html",
+			"settings":
+			{
+				"buffer_size": 2886,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tutorien/templates/tutorien/base.html",
+			"settings":
+			{
+				"buffer_size": 2941,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"shader",
+				"Set Syntax: Unity ShaderLab"
+			],
+			[
+				"set syn",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"deak",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 247.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/auth.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/models.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/404.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/forms.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/tuts.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/meineDaten.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/base.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/static/tutorien/js/scripts.js",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/createTut.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/SVGTuts/settings.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/manageUsers.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/bewerbungen.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/sass/styles.scss",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/SVGTuts/urls.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/views.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/tutorSuggestion.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/register.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/admin.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/login.html",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/tests.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/settings.py",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/createTutDate.html",
+		"/Users/Midori/Documents/Projekte/SVGTuts/02_Umsetzung/SCSS/SVGTUTS/sass/styles.scss",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/config.rb",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/static/tutorien/css/styles.css",
+		"/Users/Midori/Documents/Projekte/SVGTuts/02_Umsetzung/SCSS/SVGTUTS/config.rb",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/SVGTuts/sass/screen.scss",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/SVGTuts/config.rb",
+		"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts/tutorien/templates/tutorien/profile.html",
+		"/Users/Midori/Sites/SVGTuts/tutorien/models.py",
+		"/Users/Midori/Sites/SVGTuts/tutorien/views.py",
+		"/Users/Midori/Sites/SVGTuts/SVGTuts/settings.py",
+		"/Users/Midori/Sites/SVGTuts/SVGTuts/tutorien.sqlite",
+		"/Users/Midori/Documents/Projekte/svgtuts/mysite/templates/polls/index.html",
+		"/private/var/folders/sf/dlw5lxlj0c9845146ychh8vw0000gn/T/fz3temp-1/wp-config.php",
+		"/Users/Midori/Sites/Wellenbrecher/wp-content/plugins/newsletter/widget.php",
+		"/Users/Midori/Documents/FH/IAM6/Werkschau/index.html",
+		"/private/var/folders/sf/dlw5lxlj0c9845146ychh8vw0000gn/T/fz3temp-1/.qmail-support",
+		"/Users/Midori/Documents/FH/IAM6/Werkschau/untitled",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/Full/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/Full/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/Full/index.htlm",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/CSS-Zeugs/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/CSS-Zeugs/cookie/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/CSS-Zeugs/muffin/unterseite.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/960/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/CSS-Zeugs/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/CSS-Zeugs/unterseite.html",
+		"/Users/Midori/Desktop/index.html",
+		"/Users/Midori/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/FullScreen/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/1_FullScreen/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/1_FullScreen/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/0_960/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/0_960/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Teil 2/0_960/960.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/style2.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/test2.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/style.css",
+		"/Users/Midori/.ssh/id_dsa.pub",
+		"/Users/Midori/Documents/HTML/960/nathansmith-960-Grid-System-231ee0c/code/css/960.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/test.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/test2",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Tests/style2",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Seite 2/css/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Final/kontakt.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Final/css/style.css",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Final/index.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Final/img/purple.jpg",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Seite 1/Seite 1.html",
+		"/Users/Midori/Documents/FH/IAM6/Tutorien/HTML:CSS/Seite 2/Seite 2.html",
+		"/Users/Midori/Desktop/localized",
+		"/Users/Midori/Documents/FH/IAM6/Computergrafik/Aufgaben/beispielProgramme/webGL/interactionInitials/js/interactionInitials.js",
+		"/Users/Midori/Documents/FH/IAM6/Computergrafik/Aufgaben/beispielProgramme/webGL/interactionInitials/js/myInitials.js",
+		"/Users/Midori/Downloads/Musik/Vanessa Paradis & -M- - La Seine.mp3",
+		"/Users/Midori/Downloads/Musik/Vanessa Paradis & Sean Lennon - La Seine and I.mp3",
+		"/Applications/Little Inferno.app/Contents/Info.plist",
+		"/Users/Midori/Documents/FH/IAM6/Computergrafik/Aufgaben/beispielProgramme/webGL/animatedTriangle/js/animatedTriangle.js",
+		"/Applications/Arduino.app/Contents/Resources/Java/libraries/SdFat/Sd2Card.h",
+		"/Users/Midori/Sites/bnp/wp-content/themes/twentytwelve/content-link.php",
+		"/Users/Midori/Sites/bnp/wp-content/themes/twentytwelve/js/html5.js",
+		"/Users/Midori/Documents/HTML/Chrome Extensions/QuickSaveLink/background.html",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/ThunderBirdFirst/chrome.manifest",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/ThunderBirdFirst/install.rdf",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/ThunderBirdFirst/chrome/content/overlay.js",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/FirstThunderbirdExtension@slawa.gurevich/chrome/content/overlay.js",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/FirstThunderbirdExtension@slawa.gurevich/chrome/content/myhelloworld.xul",
+		"/Users/Midori/Documents/Projekte/Mozilla Extension SDK/Extensions/ThunderBirdFirst/chrome/content/myhelloworld.xul",
+		"/Users/Midori/Library/Thunderbird/Profiles/vit2519z.default/extensions/FirstThunderbirdExtension@slawa.gurevich",
+		"/Users/Midori/Downloads/Programme/Internet/addon-sdk-1.14/addons/new/lib/main.js",
+		"/Users/Midori/Documents/Shell Scripts/news.rss.sh",
+		"/Users/Midori/Documents/Projekte/Bits and Pieces/updating.html",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/style.css",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/contact.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/page.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/category-12.php",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/options.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/category-15.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/home.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/category.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/scripts.js",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/sidebar-topbar.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/header.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/single.php",
+		"/Applications/Adobe Flash Builder 4.6/eclipse/plugins/com.adobe.flexbuilder.launching.ui.nl1_4.6.1.335153/com/adobe/flexbuilder/launching/ui/messages_zh_CN.properties",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/eventcalendar3.php",
+		"/Users/Midori/Sites/IKG/index.php",
+		"/Users/Midori/Documents/HTML/Chrome Extensions/SmartTab/scripts.js",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/footer.php",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/functions.php",
+		"/Users/Midori/Sites/IKG/wp-includes/media.php",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/popup.js",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/searchform.php",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/contact-form-7/modules/submit.php",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/popup.bck.js",
+		"/Users/Midori/Sites/IKG/wp-config.backup",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/template-functions.php",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/ec3.js",
+		"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53/ec3.css",
+		"/private/etc/my.cnf",
+		"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme/index.php",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/js/vclsd/Service/Service.js",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/App.js",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/js/vclsd/View.js",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/js/vclsd/View/View.js",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/js/init/init.json",
+		"/Users/Midori/Dropbox/JS_Bildergalerie/Prototype/app/js/vclsd/View/OverView.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Midori/Documents/FH/IAM6/Netz und Data 1/SVGTuts",
+			"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53",
+			"/Users/Midori/Sites/IKG/wp-content/themes/ikgtheme",
+			"/Users/Midori/Sites/IKG/wp-content/plugins/event-calendar-3-for-php-53",
+			"",
+			"<selection>",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a",
+			"tutorien",
+			"table",
+			"filter",
+			"table",
+			"date",
+			"()\n",
+			"int",
+			"int(",
+			")\n",
+			"tutorien",
+			"request",
+			"objects",
+			"username",
+			"logg",
+			"sql",
+			"registra",
+			"registr",
+			"tutuserregis",
+			"register",
+			"processor",
+			"']'''\n",
+			"ldap",
+			"exist",
+			"does",
+			"z-index",
+			"            \n",
+			"usernamen",
+			"auth_pro",
+			"authentication",
+			"<form action=\"/login/\" method=\"post\">{% csrf_token %}				\n								{% if next %}\n								<input type=\"hidden\" name=\"next\" value=\"{{ next }}\" />\n								{% endif %}\n								username:\n								<input type=\"text\" name=\"username\" value=\"{{ username }}\" /><br />\n								password:\n								<input type=\"password\" name=\"password\" value=\"\" /><br />\n\n								<input type=\"submit\" value=\"Log In\" />\n							</form>",
+			"login_redirect",
+			"login",
+			"login ",
+			"profile",
+			"auth",
+			"(r'^polls/$', 'polls.views.index'),",
+			"'),\n",
+			"newsletter-email",
+			"Piece of art!",
+			"html5",
+			"time",
+			"texturecoordinate",
+			"testurecoordinate",
+			";\n",
+			"keydown",
+			"request",
+			"uint8_t const SS_PIN",
+			"#7bc0ff",
+			"ba\"",
+			"ff",
+			"5",
+			"content",
+			"url",
+			"contactdiv textarea",
+			"contactdiv input",
+			"select",
+			"input",
+			" {",
+			"textarea",
+			"calendarpost",
+			"posts",
+			"eccerpt",
+			"excerpt",
+			"the_excerpt()",
+			"\"[\".",
+			"\"[\".\"",
+			"'['.'",
+			"veranst",
+			"event",
+			"calendar",
+			"alle-",
+			"tabs",
+			"1px dotted #7bc0ff",
+			"1px dotted #7c",
+			"7bc0ff",
+			"a h3",
+			"h3 a",
+			"h3",
+			"article",
+			"title",
+			"h3",
+			"contact-info",
+			" single",
+			"arimo",
+			"arim",
+			"h3",
+			"h2",
+			"h3 a,",
+			"single",
+			"add_tbody",
+			"ec3_popup",
+			"ec3_title",
+			"ec3_eventday",
+			"body",
+			"ec3_title",
+			"calendar ",
+			"calendat ",
+			"posts",
+			"ec3.css",
+			"calendar",
+			"calendat",
+			"today",
+			"wc-calendar",
+			"wc-calendat",
+			"a {",
+			"a ",
+			"logo",
+			"a:hover",
+			"newestanzeiger",
+			":hover",
+			"sub",
+			"sub-menu",
+			"top-menu",
+			"top.menu",
+			"container",
+			"tilde",
+			"span",
+			"post",
+			"title",
+			"min-height",
+			"min-height:",
+			"min-height:17",
+			"min-height: 17",
+			"PT Serif Caption",
+			"query_cache_limit",
+			"recommenda",
+			"variables to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"name",
+			"<span>Piece of Art!</span>",
+			"#61C6FF",
+			"ball\"",
+			"1px dotted #476f8b",
+			"476f8b",
+			"ec3title",
+			"newest",
+			"Open Sans",
+			"Arimo",
+			"Roboto",
+			"createShadowStyles",
+			"inner_shadow_distance",
+			"stroke_style",
+			"stroke_active",
+			"options"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tutorien/views.py",
+					"settings":
+					{
+						"buffer_size": 11447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5909,
+								5909
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1102.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tutorien/tests.py",
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tutorien/models.py",
+					"settings":
+					{
+						"buffer_size": 1747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1154,
+								1157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Midori/Documents/FH/IAM6/Netz und Data 1/Ressources/SCSS/sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 7771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5245,
+								5245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3967.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tutorien/templates/tutorien/tuts.html",
+					"settings":
+					{
+						"buffer_size": 2886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1674,
+								1676
+							],
+							[
+								1765,
+								1767
+							],
+							[
+								1953,
+								1955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "tutorien/templates/tutorien/base.html",
+					"settings":
+					{
+						"buffer_size": 2941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1727,
+								1727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true
+}

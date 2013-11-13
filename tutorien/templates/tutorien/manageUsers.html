@@ -1,0 +1,41 @@
+{% extends "tutorien/base.html" %}
+
+{% block content %}
+<div id="content" class="container_12">
+
+	<div class="grid_12" id="all-users-div">
+	<table id="all-users-table" width="100%" border="0" cellspacing="0" cellpadding="0">
+		<thead class="tr-title">
+			<td>RZ-Kennung</td>
+			<td>Vorname</td>
+			<td>Nachname</td>
+			<td>Email</td>
+			<td>Status</td>
+			<td>Aktion</td>
+		</thead>
+	{% for u in users %}
+		{% if not u.is_superuser %}
+		<tr class="user table-item">
+			<td>{{ u.username }}</td>
+			<td>{{ u.first_name }}</td>
+			<td>{{ u.last_name }}</td>
+			<td>{{ u.email }}</td>
+			{% if u.is_tutor %}
+			<td>
+				Tutor
+			</td>
+			<td>
+				<a href="?uid={{ u.id }}&a=rem">Zum Benutzer</a>
+			</td>
+			{% else %}
+			<td>Student</td>		
+			<td><a href="?uid={{ u.id }}&a=add">Zum Tutor</a></td>
+			{% endif %}
+			</td>
+		</tr>
+		{% endif %}
+	{% endfor %}
+	</table>
+	</div>
+</div>
+{% endblock content %}

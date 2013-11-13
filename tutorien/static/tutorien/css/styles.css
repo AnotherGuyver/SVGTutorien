@@ -1,0 +1,516 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600);
+/* colors */
+/* end colors */
+/* font size */
+/* end font-size */
+/* ornaments */
+/* end ornaments */
+/* unisize */
+/* end unisize */
+/* general classes */
+/* line 43, ../../../../../Ressources/SCSS/sass/styles.scss */
+.blue {
+  background: #50c6d8;
+}
+
+/* line 47, ../../../../../Ressources/SCSS/sass/styles.scss */
+.red {
+  background: #d85050;
+}
+
+/* line 51, ../../../../../Ressources/SCSS/sass/styles.scss */
+.bold {
+  font-weight: 600;
+}
+
+/* line 55, ../../../../../Ressources/SCSS/sass/styles.scss */
+.small {
+  font-size: small;
+}
+
+/* line 59, ../../../../../Ressources/SCSS/sass/styles.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #dddddd;
+}
+
+/* line 68, ../../../../../Ressources/SCSS/sass/styles.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #dddddd;
+  -moz-transition: width 2s, height 2s, background-color 2s, -moz-transform 2s;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  -o-transition: width 2s, height 2s, background-color 2s, -o-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+/*/ general classes /*/
+/* line 83, ../../../../../Ressources/SCSS/sass/styles.scss */
+form p {
+  min-height: 60px;
+  line-height: 30px;
+}
+/* line 89, ../../../../../Ressources/SCSS/sass/styles.scss */
+form label,
+form .date-label {
+  float: left;
+  width: 180px;
+}
+/* line 94, ../../../../../Ressources/SCSS/sass/styles.scss */
+form input {
+  height: 30px;
+  width: 360px;
+  padding: 3px 6px;
+}
+/* line 100, ../../../../../Ressources/SCSS/sass/styles.scss */
+form textarea {
+  resize: none;
+  width: 360px;
+  height: 150px;
+  padding: 3px 6px;
+}
+/* line 109, ../../../../../Ressources/SCSS/sass/styles.scss */
+form .time-input {
+  width: 80px;
+  margin-right: 5px;
+  text-align: center;
+}
+/* line 110, ../../../../../Ressources/SCSS/sass/styles.scss */
+form .time-input#date {
+  width: 90px;
+}
+
+/* line 121, ../../../../../Ressources/SCSS/sass/styles.scss */
+table {
+  text-align: center;
+}
+/* line 124, ../../../../../Ressources/SCSS/sass/styles.scss */
+table#my-data-table {
+  text-align: left;
+}
+/* line 131, ../../../../../Ressources/SCSS/sass/styles.scss */
+table#all-users-table tr:nth-child(even), table#suggestions-table tr:nth-child(even) {
+  background: #fff;
+}
+/* line 136, ../../../../../Ressources/SCSS/sass/styles.scss */
+table thead {
+  line-height: 60px;
+  height: 60px;
+  font-weight: 600;
+  background: white;
+}
+/* line 143, ../../../../../Ressources/SCSS/sass/styles.scss */
+table tr {
+  height: 60px;
+}
+
+/* line 150, ../../../../../Ressources/SCSS/sass/styles.scss */
+html {
+  background: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+/* basic */
+/* line 157, ../../../../../Ressources/SCSS/sass/styles.scss */
+a {
+  color: #50c6d8;
+  text-decoration: none;
+}
+
+/* line 162, ../../../../../Ressources/SCSS/sass/styles.scss */
+h1 {
+  font-size: 2.6em;
+  font-weight: 600;
+}
+/* line 166, ../../../../../Ressources/SCSS/sass/styles.scss */
+h1.page-headline {
+  margin: 50px 0 60px 0;
+}
+
+/* line 171, ../../../../../Ressources/SCSS/sass/styles.scss */
+h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+/* line 175, ../../../../../Ressources/SCSS/sass/styles.scss */
+h2.home-headline {
+  margin-bottom: 30px;
+}
+
+/* line 180, ../../../../../Ressources/SCSS/sass/styles.scss */
+body {
+  background: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #2e2e2e;
+  /* navigation */
+  /* content */
+}
+/* line 192, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  background: #f4f4f4;
+  z-index: 300;
+}
+/* line 200, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi {
+  height: 100%;
+}
+/* line 203, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi a {
+  color: #2e2e2e;
+  font-size: 1.3em;
+  font-size: 1.0em;
+  padding: 0 30px;
+}
+/* line 211, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi .nav-side ul {
+  list-style: none none inside;
+  margin: 0;
+}
+/* line 215, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi .nav-side ul li, body #navi_wrapper #navi .nav-side ul #log-in-url {
+  list-style: inherit;
+  border-right: 1px solid #dfdfdf;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+/* line 220, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi .nav-side ul li:hover, body #navi_wrapper #navi .nav-side ul #log-in-url:hover {
+  background: #fff;
+}
+/* line 224, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi .nav-side ul li:first-child, body #navi_wrapper #navi .nav-side ul #log-in-url:first-child {
+  border-left: 1px solid #dfdfdf;
+}
+/* line 232, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #left-side-nav #nav-ul {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 238, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #left-side-nav #nav-ul li.nav-li {
+  line-height: 60px;
+  float: left;
+}
+/* line 249, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul {
+  float: right;
+  line-height: 60px;
+}
+/* line 254, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li,
+body #navi_wrapper #navi #right-side-nav ul #log-out-li {
+  right: 0;
+  top: 60px;
+  background: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  margin-top: -20px;
+  line-height: 30px;
+  z-index: 300;
+  display: none;
+  float: right;
+}
+/* line 268, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li {
+  width: 300px;
+  text-align: left;
+}
+/* line 272, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li form {
+  margin: 0;
+  padding: 0;
+}
+/* line 277, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li form input[type='text'],
+body #navi_wrapper #navi #right-side-nav ul #log-in-li form input[type='password'] {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+/* line 286, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li form input[type='submit'] {
+  height: 33px;
+  width: 100%;
+  line-height: 33px;
+  text-align: center;
+  border: none;
+  background: #50c6d8;
+  color: white;
+}
+/* line 296, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-in-li form p.input-p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+/* line 304, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #navi_wrapper #navi #right-side-nav ul #log-out-li {
+  width: 130px;
+  text-align: center;
+}
+/* line 314, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper {
+  padding-top: 80px;
+}
+/* line 317, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper #teaser {
+  height: 383px;
+  width: 100%;
+  background-image: url("../images/teaser.jpg");
+  background-size: cover;
+  margin-bottom: 60px;
+}
+/* line 324, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper #teaser #teaser-div {
+  height: 100%;
+}
+/* line 327, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper #teaser #teaser-div span {
+  position: relative;
+  font-size: 6em;
+  font-weight: 300;
+  color: white;
+  top: 80%;
+}
+/* line 337, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper #outer-content {
+  width: 964px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 344, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper .status-div {
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+/* line 351, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.data-div {
+  position: relative;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  background: white;
+  height: auto;
+  width: 100%;
+  display: inline;
+  float: left;
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+/* line 367, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div {
+  position: relative;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  background: white;
+  height: 290px;
+  width: 100%;
+  display: inline;
+  float: left;
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+/* line 381, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div:first-child {
+  margin-top: 30px;
+}
+/* line 385, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div .arrow-div {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  border-top: 1px solid #dddddd;
+}
+/* line 394, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div .arrow-div:hover {
+  background: #efefef;
+}
+/* line 399, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div .arrow-div a.arrow-a div {
+  margin: 4px auto;
+}
+/* line 407, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side h2.tut-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 412, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.tut-description-short {
+  margin-top: 30px;
+  height: 146px;
+}
+/* line 417, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.tut-extended {
+  display: none;
+}
+/* line 420, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.tut-extended .text {
+  min-height: 150px;
+  margin-top: 30px;
+}
+/* line 425, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.tut-extended .label {
+  margin: 0;
+  font-weight: 700;
+  margin-top: 30px;
+}
+/* line 434, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side a.button {
+  height: 33px;
+  width: 134px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 33px;
+  float: left;
+  bottom: 0;
+  margin: 0 5px 30px 0;
+  left: 30px;
+}
+/* line 446, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side .tut-tutor {
+  margin-bottom: 30px;
+}
+/* line 450, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side a.button-blue {
+  color: white;
+  background: #50c6d8;
+}
+/* line 455, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side a.button-gray {
+  background: #efefef;
+  color: #dddddd;
+}
+/* line 460, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.all-users {
+  width: auto;
+  height: auto;
+  position: absolute;
+  background: white;
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 30px;
+  display: none;
+}
+/* line 472, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.all-users .user {
+  height: 30px;
+  line-height: 30px;
+}
+/* line 477, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.left-side div.all-users ul, body #content_wrapper div.tutorium-div div.left-side div.all-users li {
+  padding: 0;
+  margin: 0;
+  list-style: none none inside;
+}
+/* line 486, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates {
+  height: 146px;
+  text-align: right;
+}
+/* line 490, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div {
+  width: 68px;
+  height: 100%;
+  float: right;
+  text-align: center;
+  margin-left: 2px;
+}
+/* line 499, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-day,
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-time,
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-room {
+  height: 60px;
+  width: 100%;
+  color: white;
+  display: table;
+}
+/* line 505, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-day p,
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-time p,
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-room p {
+  width: 100%;
+  margin: 0;
+}
+/* line 512, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-day,
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-room {
+  background: #d85050;
+  margin-bottom: 2px;
+}
+/* line 517, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-time {
+  background: #dddddd;
+  margin-bottom: 2px;
+}
+/* line 522, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-starttime {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+/* line 527, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .date-duration {
+  font-size: 0.8em;
+}
+/* line 532, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .vertical {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 537, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .vertical .date-number {
+  font-size: 2.1em;
+  font-weight: 600;
+}
+/* line 542, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .vertical .date-roomnumber {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+/* line 547, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .vertical .date-roomlabel {
+  font-size: 0.8em;
+}
+/* line 551, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper div.tutorium-div div.tutdates .date-div .vertical .date-month {
+  font-size: 0.8em;
+  line-height: 10px;
+  margin-top: 10px;
+}
+/* line 565, ../../../../../Ressources/SCSS/sass/styles.scss */
+body #content_wrapper .last-p {
+  margin-bottom: 90px;
+}

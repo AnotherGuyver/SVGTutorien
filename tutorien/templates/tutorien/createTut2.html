@@ -1,0 +1,16 @@
+{% extends "tutorien/base.html" %}
+
+{% block content %}
+{% load static %}
+<div id="content" class="container_12">
+	<div class="grid_8 create-tut-form-div">
+		<h3>{{status}}</h3>
+		<form action="" method="POST">
+		{% csrf_token %}
+		{{ formset.as_p }}
+		<input type="submit" value="Tutorium erstellen">
+		</form>
+	</div>
+</div>
+
+{% endblock content %}

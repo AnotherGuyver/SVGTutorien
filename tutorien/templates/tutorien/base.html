@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static "tutorien/css/924.css" %}">
+	<link rel="stylesheet" href="{% static "tutorien/css/styles.css" %}">
+	<script src="{% static 'tutorien/js/jquery-2.0.2.min.js' %}"></script>
+	<script src="{% static 'tutorien/js/jquery-ui-1.10.3.custom.min.js' %}"></script>
+	<script src="{% static 'tutorien/js/scripts.js' %}"></script>
+	<script>
+var loc = window.location.pathname;
+var dir = loc.substring(0, loc.lastIndexOf('/'));
+console.log(dir);
+	</script>
+</head>
+<body class="page-{{ divid }}">
+
+<div id="wrapper">
+	<div id="navi_wrapper">
+		<div id="navi" class="container_12">
+			<div id="left-side-nav" class="grid_9 nav-side">
+				<ul id="nav-ul">
+					<li class="nav-li"><a href="/Tutorien/" class="nav-a">Tutorien</a></li>
+					{% if not user.is_tutor and not user.is_superuser %}
+					<li class="nav-li"><a href="/Bewerben" class="nav-a">Tutor werden</a></li>
+					{% endif %}
+					
+					{% if user.is_superuser %}
+					<li class="nav-li"><a href="/Erstellen" class="nav-a">Tutorium erstellen
+					</a></li>
+					<li class="nav-li"><a href="/Benutzer" class="nav-a">Benutzerverwaltung
+					</a></li>
+					{% endif %}
+				</ul>
+			</div>
+			<div id="right-side-nav" class="grid_3 nav-side">
+				
+				<ul id="log-in-url">
+					<li><a href="javascript:" id="log-in-link">
+					{% if user.is_authenticated %}
+					{{ user.username }}
+					{% else %}
+					Login
+					{% endif %}
+					</a></li>
+					{% if user.is_authenticated %}
+					<li id="log-out-li">
+						<div id="log-out-div">
+							<a href="/meineDaten">meine Daten</a>
+							{% if user.is_superuser %}
+							<a href="/Bewerbungen">Bewerbungen</a>
+							{% endif %}
+							<a href="/logout/?next={{ request.get_full_path }}" id="log-out-link">ausloggen</a>				
+							{% else %}
+					<li id="log-in-li">
+						<div id="log-in-div">
+							{% if status %}
+							<span class="small">{{ status }}</span>
+							{% endif %}
+							<form action="/login/?next={{ request.get_full_path }}" method="post">
+								{% csrf_token %}			
+								
+								<input type="hidden" name="next" value="{{ request.path }}" />
+								
+								<p class="input-p"><input type="text" placeholder="Benutzername" name="username" value="" /></p>
+								<p class="input-p"><input type="password" placeholder="Passwort" name="password" value="" /></p>
+
+								<input id="log-in-submit" type="submit" value="Log In" />
+							</form>
+							{% endif %}
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+	<div id="content_wrapper">
+		{% block extrahead %}
+		{% endblock extrahead %}
+		<div id="outer-content">
+			<div class="container_12 headline">
+				<div class="grid_12">
+					<h1 class="page-headline">{{ pagetitle }}</h1>
+				</div>
+			</div>
+
+			{% block content %}
+
+			{% endblock content %}
+
+		</div>
+
+	</div>
+	<div class="container_12"></div>
+</div>
+
+</body>
+</html>
